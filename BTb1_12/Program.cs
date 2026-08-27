@@ -110,25 +110,25 @@ namespace BTb1_12
  * - Theo bản chất:
  * - Đầu tiên là về class (tham chiếu): 
  *   Một class giống như một ngôi nhà vậy, khi ta muốn cho ai đó sử dụng nhà,
- * ta không thể bưng cả ngôi nhà đưa cho họ được mà ta chỉ đưa chìa khòa (địa chỉ).
- * Nếu người đó dùng chiaf khóa vào nhà và sơn lại tường, ngôi nhà gốc của chúng ta
+ * ta không thể bưng cả ngôi nhà đưa cho họ được mà ta chỉ đưa chìa khóa (địa chỉ).
+ * Nếu người đó dùng chìa khóa vào nhà và sơn lại tường, ngôi nhà gốc của chúng ta
  * chắc chắn sẽ bị đổi màu theo. Sự liên kết này gọi là kiểu tham chiếu(reference type).
  * - Còn về struct, nó ngược lại:
  *   Struct giống như 1 tờ giấy chứa dữ liệu. Khi bạn đưa tờ giấy đó cho một hàm hay 
  * một biến khác, hệ thống sẽ tự động tạo ra 1 bản sao y hệt để đưa đi. Nếu người kia 
  * có vò nát hay sửa chữa điều gì trên tờ giấy đó, tờ gốc không bị thay đổi vẫn nguyên vẹn.
- * sự ngăn cách này gọi là kiểu tham trị (value type).
+ * sự phân biệt này gọi là kiểu tham trị (value type).
  * - 1 cái ta có thể dựa vào địa chỉ mà đi đến gốc và thay đổi và tác động mọi thứ
  * nghĩa là nhận giá trị cả 2 chiều, 1 cái ta chỉ có thể nhận dữ liệu 1 chiều
  * nếu không thêm công cụ hỗ trợ gì thì tác động như thế nào thì bản gốc vẫn vẹn nguyên.
  * Theo kiến trúc máy tính thì:
- * - vùng nhớ lưu trữ: struct được cấp phát trên Stack(tốc độ nhanh, tự động dọn dẹp khi dùng xong.
+ * - Vùng nhớ lưu trữ: struct được cấp phát trên Stack(tốc độ nhanh, tự động dọn dẹp khi dùng xong.
  * class nằm trên bộ nhớ Heap (chậm hơn và phải đợi gom rác Garbage Collector dọn dẹp.
- * - Khả năng kê thừa: theo định nghĩa trên ta cũng dúc kết là
- * class sinh ra là để tạo các cây kế thừa phưucs tạp.
+ * - Khả năng kế thừa: theo định nghĩa trên ta cũng đúc kết là
+ * class sinh ra là để tạo các cây kế thừa phức tạp.
  * struct bị khóa hoàn toàn, nó không thể kế thừa từ 1 struct hay class khác.
  * - Trạng thái rỗng: class có thể mang giá trị null còn biến kiểu struct không được là null.
  * Nên: class đa dụng nhiều hơn, riêng struct thì chỉ nên dùng khi dữ liệu cho 
- * giá trị đơn lẻ(Tọa độ X/Y, màu sác RGB, Thời gian), kích thước vùng nhờ rất nhỏ(<16 byte)
- * Dữ liệu không cần thay đổi sau khi tạo
+ * giá trị đơn lẻ(Tọa độ X/Y, màu sác RGB, Thời gian), kích thước vùng nhờ rất nhỏ(<16 byte),
+ * dữ liệu không cần thay đổi sau khi tạo.
 */
