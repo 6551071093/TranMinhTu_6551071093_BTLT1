@@ -1,0 +1,15 @@
+E:\C# VS\BTb1_11\bin\Debug\net10.0\BTb1_11.exe
+E:\C# VS\BTb1_11\bin\Debug\net10.0\BTb1_11.deps.json
+E:\C# VS\BTb1_11\bin\Debug\net10.0\BTb1_11.runtimeconfig.json
+E:\C# VS\BTb1_11\bin\Debug\net10.0\BTb1_11.dll
+E:\C# VS\BTb1_11\bin\Debug\net10.0\BTb1_11.pdb
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.AssemblyInfoInputs.cache
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.AssemblyInfo.cs
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.csproj.CoreCompileInputs.cache
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.sourcelink.json
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.dll
+E:\C# VS\BTb1_11\obj\Debug\net10.0\refint\BTb1_11.dll
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.pdb
+E:\C# VS\BTb1_11\obj\Debug\net10.0\BTb1_11.genruntimeconfig.cache
+E:\C# VS\BTb1_11\obj\Debug\net10.0\ref\BTb1_11.dll
